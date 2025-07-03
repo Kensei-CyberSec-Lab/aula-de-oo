@@ -4,6 +4,8 @@ Este repositório é um projeto educacional criado para demonstrar e comparar a 
 
 O objetivo principal é permitir que estudantes e desenvolvedores observem as semelhanças e diferenças na sintaxe e na estrutura ao aplicar os mesmos padrões de OO em diferentes ecossistemas.
 
+ [Apresentação PDF](https://github.com/Kensei-CyberSec-Lab/aula-de-oo/blob/main/Aula-Pratica-Orientacao-a-Objetos-com-Java-Python-e-TypeScript-Construindo-um-Banco-Digital-com-Dock.pdf)
+
 ---
 
 ## Pilares da Orientação a Objetos Abordados
