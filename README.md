@@ -45,7 +45,7 @@ Graças ao Docker, você não precisa instalar Java, Python ou Node.js/TypeScrip
 ### Instruções de Execução
 Opção 1: Executar TODOS os projetos simultaneamente (Recomendado)
 ```
-docker-compose up -d --build
+docker-compose up --build
 ```
 Você verá os logs dos três projetos intercalados no seu terminal:
 
