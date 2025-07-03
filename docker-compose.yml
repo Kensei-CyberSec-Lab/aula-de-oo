@@ -1,0 +1,25 @@
+# Definição dos nossos serviços (um para cada linguagem)
+services:
+  # Serviço para o projeto TypeScript
+  typescript:
+    build:
+      context: ./typescript-banco-digital
+      dockerfile: Dockerfile
+    container_name: banco-ts
+    volumes:
+      - ./typescript-banco-digital/src:/usr/app/src
+    tty: true
+
+  # Serviço para o projeto Python
+  python:
+    build:
+      context: ./python-banco-digital
+      dockerfile: Dockerfile
+    container_name: banco-python
+
+  # Serviço para o projeto Java
+  java:
+    build:
+      context: ./java-banco-digital
+      dockerfile: Dockerfile
+    container_name: banco-java

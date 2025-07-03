@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",                          /* Versão do ECMAScript de destino */
+    "module": "commonjs",                       /* Sistema de módulo a ser usado */
+    "rootDir": "./src",                         /* Diretório raiz dos arquivos de entrada */
+    "outDir": "./dist",                         /* Diretório de saída dos arquivos compilados */
+    "esModuleInterop": true,                    /* Habilita interoperabilidade entre CommonJS e ES Modules */
+    "forceConsistentCasingInFileNames": true,   /* Garante que o case dos nomes de arquivo seja consistente */
+    "strict": true,                             /* Habilita todas as opções de checagem estrita */
+    "skipLibCheck": true                        /* Pula a checagem de tipos em arquivos de declaração */
+  }
+}
